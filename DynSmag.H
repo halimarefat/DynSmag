@@ -29,7 +29,7 @@ Description
 
     This code had been developed for OpenFOAM version 4.1 by Ehsan Asgari and an older one by Alberto Passalacqua.
     
-    The current version has been developed for OpenFOAM-10.
+    The current version is developed for OpenFOAM-10.
 
     H. Ali Marefat, hmarefat@mun.ca
 
