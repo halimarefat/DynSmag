@@ -3,7 +3,9 @@ The Dynamin Smagorinsky SGS model with local averaging, based on Germano and Lil
 
 ## How to use
 In your OpenFOAM case add the following code line to the "system/controlDict" file:
-'''
+
+```
 libs ("/path/to/DynSmag.so");
-'''
+```
+
 and you are good to run the case. Happy computing!
