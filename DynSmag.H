@@ -25,10 +25,12 @@ Class
     Foam::LESModels::DynSmag
 
 Description
-    The Dynamin Smagorinsky SGS model with local averaging, based on Germano and Lilly publications.
+    The Dynamin Smagorinsky SGS model with local averaging, based on the following works:
+
+    1- M. Germano, U. Piomelli, P. Moin, and W. H. Cabot, “A dynamic subgrid-scale eddy viscosity model,” Phys. Fluids A 3, 1760–1765 (1991).
+    2- D. K. Lilly, “A proposed modification of the Germano subgrid-scale closure method,” Phys. Fluids A 4, 633–635 (1992).
 
     This code had been developed for OpenFOAM version 4.1 by Ehsan Asgari and an older one by Alberto Passalacqua.
-    
     The current version is developed for OpenFOAM-10.
 
     H. Ali Marefat, hmarefat@mun.ca
