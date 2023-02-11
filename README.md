@@ -8,10 +8,10 @@ The Dynamin Smagorinsky SGS model with local averaging, based onThe Dynamin Smag
 This code had been developed for OpenFOAM version 4.1 by Ehsan Asgari and an older one by Alberto Passalacqua. This version is developed for OpenFOAM-10.
 
 ## How to use
-In your OpenFOAM case add the following code line to the "system/controlDict" file:
+After installing OpenFOAM-10 using this [instruction](https://openfoam.org/download/10-ubuntu/), in your OpenFOAM case, add the following code line to the "system/controlDict" file:
 
 ```
 libs ("/path/to/DynSmag.so");
 ```
 
-and you are good to run the case. Happy computing!
+and change the model to "DynSmag" in "constant/momentumTransport" file. Now, you are good to run the case. Happy computing!
